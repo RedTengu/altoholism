@@ -1,5 +1,7 @@
 import './Header.css';
 
+// добавить лого
+
 function Header() {
   return (
     <header className='header'>
