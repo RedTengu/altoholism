@@ -2,7 +2,7 @@ import './Main.css';
 
 function Main() {
   return (
-    <main className='main'>
+    <main className='content'>
       <section className='main-menu'>
         <h1 className='main-menu__title'>Добро пожаловать в Альтоголизм!</h1>
         <div className='main-menu__description'>
