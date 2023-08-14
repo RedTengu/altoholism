@@ -1,5 +1,21 @@
+.logo-link {
+  display: flex;
+  transition: all .2s ease-in-out;
+}
+
+.logo-link:hover {
+  opacity: .7;
+}
+
+.logo {
+  width: 150px;
+}
+
 .header {
   padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__lang-list {
