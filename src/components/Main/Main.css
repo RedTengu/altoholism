@@ -17,14 +17,14 @@
   text-align: center;
 }
 
-.main-menu__description {
+.main-menu__description-list {
+  margin: 30px 0 0;
+  padding: 0;
+  list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-}
-
-.main-menu__description-text {
-  max-width: 200px;
 }
 
 .main-menu__complexity-list {
