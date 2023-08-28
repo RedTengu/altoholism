@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import Description from '../Description/Description';
 
 import engineeringIcon from '../../images/engineering-icon.jpg';
@@ -26,13 +28,13 @@ function MainMenu() {
       <nav className='main-menu__complexity'>
         <ul className='main-menu__complexity-list'>
           <li>
-            <a className='main-menu__complexity-link main-btns' href='#'>Новичок</a>
+            <Link className='main-menu__complexity-link main-btns' to='novice'>Новичок</Link>
           </li>
           <li>
-            <a className='main-menu__complexity-tutorial' href='#'>Как пользоваться?</a>
+            <Link className='main-menu__complexity-tutorial' to='link' target='_blank'>Как пользоваться?</Link>
           </li>
           <li>
-            <a className='main-menu__complexity-link main-btns' href='#'>Продвинутый</a>
+            <Link className='main-menu__complexity-link main-btns' to='advanced'>Продвинутый</Link>
           </li>
         </ul>
       </nav>

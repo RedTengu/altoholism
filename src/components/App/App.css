@@ -26,6 +26,10 @@ html {
 
 /* Mix */
 
+.title-card {
+  text-align: center;
+}
+
 .main-btns {
   padding: 10px 15px;
   color: #000;
